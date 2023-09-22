@@ -38,7 +38,7 @@ export class AppServiceService {
   }
 
   addTeacher(payload: Object){
-    return this.http.post(`/${this.ROOT_URL}/api/addTeacher`, payload)
+    return this.http.post(`/api/addTeacher`, payload)
   }
 
   deleteTeacher(payload: Object){
