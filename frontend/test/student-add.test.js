@@ -6,6 +6,7 @@ fixture`Testing Student UI`
 
 test('Testing add students', async t => {
 
+    console.log("fsssssssssss");
     await t.navigateTo("/dbinitialize");
 
     await t.navigateTo("/addStudent");
